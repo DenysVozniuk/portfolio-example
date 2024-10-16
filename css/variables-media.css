@@ -1,0 +1,18 @@
+@media (max-width: 768px){
+    :root {
+        /* Font-size */
+        --fSizeH1: 32px;
+        --fSizeHeadWorks: 24px;
+        --fSizeHeadPosts: 22px;
+        --fSizeH2: 18px;
+        --fSizeLarge: 16px;
+        --fSizeMedium: 16px;
+
+        /* Line-height */
+        --lHeightExtraLarge: 40px;
+        --lHeightLarge: 30px;
+        --lHeightHightMedium: 30px;
+        --lHeightMedium: 23.5px;
+        --lHeightHightSmall: 23.5px;
+    }
+}

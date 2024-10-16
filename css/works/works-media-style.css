@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .works-head {
+        text-align: center;
+    }
+    
+    .work-cards {
+        align-items: center;
+    }
+    
+    .work-card {
+       max-width: 340px;
+       width: 100%;
+       flex-direction: column;
+       padding-bottom: 10px;
+    }
+
+    .work-card:first-child {
+        padding-top: 0;
+    }
+    
+    .work-card-img-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 344px;
+        height: 255px;
+    }
+
+    .work-card-content {
+        height: 170px;
+    }
+
+    .work-card-additional-information {
+        width: 150px;
+    }
+}

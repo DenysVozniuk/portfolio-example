@@ -1,0 +1,84 @@
+@import url('../variables.css');
+
+section.works {
+    padding: 20px 0 50px;
+}
+
+.work-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-card {
+    padding: 30px 0;
+    display: flex;
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: var(--grayLightColor);
+}
+
+.work-card-img-container {
+    max-width: 240px;
+    width: 100%;
+    height: 180px;
+    margin-right: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.work-card-img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.work-card-img-1 {
+    background-image: url('../../media/Works/Designing\ dashboards.png');
+}
+
+.work-card-img-2 {
+    background-image: url('../../media/Works/Vibrant\ Portraits\ of\ 2020.png');
+}
+
+.work-card-img-3 {
+    background-image: url('../../media/Works/36\ Days\ of\ Malayalam\ type.png');
+}
+
+.work-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.work-card-content h3 {
+    font-weight: var(--fWeightBold);
+    font-size: var(--fSizeHeadWorks);
+    line-height: var(--lHeightLarge);
+}
+
+.work-card-additional-information {
+    display: flex;
+    justify-content: space-between;
+    width: 173px;
+}
+
+.work-card-additional-information a {
+    padding: 0 10px;
+    background-color: #142850;
+    color: #FFFFFF;
+    border-radius: 16px;
+    font-weight: var(--fWeightStrongBold);
+    font-size: var(--fSizeMedium);
+    line-height: var(--lHeightHightSmall);
+}
+
+.work-card-additional-information p {
+    font-weight: var(--fWeightRegular);
+    font-size: var(--fSizeLarge);
+    line-height: var(--lHeightMedium);
+    color: var(--grayColor);
+}

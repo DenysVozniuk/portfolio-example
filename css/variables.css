@@ -1,0 +1,34 @@
+:root {
+    /* Colors */
+    --mainColor: #21243D;
+    --blackColor: #000000;
+    --whiteColor: #FFFFFF;
+    --secondaryColor: #00A8CC;
+    --grayColor: #8695A4;
+    --grayLightColor: #E0E0E0;
+    --primaryColor: #FF6464;
+    --darkColor: #142850;
+
+    /* Font-size */
+    --fSizeH1: 44px;
+    --fSizeHeadWorks: 30px;
+    --fSizeHeadPosts: 26px;
+    --fSizeH2: 22px;
+    --fSizeLarge: 20px;
+    --fSizeMedium: 18px;
+    --fSizeSmall: 16px;
+
+    /* Font-weight */
+    --fWeightStrongBold: 900;
+    --fWeightBold: 700;
+    --fWeightMedium: 500;
+    --fWeightRegular: 400;
+
+    /* Line-height */
+    --lHeightExtraLarge: 60px;
+    --lHeightLarge: 44.06px;
+    --lHeightHightMedium: 38.19px;
+    --lHeightMedium: 29.38px;
+    --lHeightHightSmall: 26.44px;
+    --lHeightSmall: 23.5px;
+}

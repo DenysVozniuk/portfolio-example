@@ -1,0 +1,37 @@
+@import url('../variables-media.css');
+
+@media (max-width: 768px) {
+    .posts-head a {
+        display: none;
+    }
+
+    .posts-head {
+        justify-content: center;
+    }
+    
+    .post-cards {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .post-card:first-child {
+        margin-right: 0;
+    }
+
+    .post-card {
+        max-width: 354px;
+        height: 266px;
+        margin-bottom: 20px;
+    }
+
+    .post-card:last-child {
+        margin-bottom: 0;
+    }
+
+    .view-all-btn-mobile {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,64 @@
+@import url('./variables.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    flex-grow: 1;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    padding-top: 100px;
+}
+
+h2 {
+    font-weight: var(--fWeightRegular);
+    font-size: var(--fSizeH2);
+    line-height: var(--lHeightExtraLarge);
+    color: var(--mainColor);
+}
+
+h3 {
+    margin: 0;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.sm-text {
+    font-size: var(--fSizeSmall);
+    font-weight: var(--fWeightRegular);
+    line-height: var(--lHeightSmall);
+    color: var(--mainColor);
+}

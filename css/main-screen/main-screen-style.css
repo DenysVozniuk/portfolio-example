@@ -1,0 +1,48 @@
+@import url('../variables.css');
+
+.main-screen {
+    padding-bottom: 70px;
+}
+
+.m-s-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.m-s-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 278px;
+    max-width: 506px;
+    width: 100%;
+}
+
+.m-s-head h1 {
+    margin: 0;
+    font-size: var(--fSizeH1);
+    font-weight: var(--fWeightBold);
+    line-height: var(--lHeightExtraLarge);
+    color: var(--mainColor);
+}
+
+.m-s-btn a {
+    border: 0;
+    background-color: var(--primaryColor);
+    padding: 15px;
+    border-radius: 2px;
+    color: var(--whiteColor);
+    font-size: var(--fSizeLarge);
+    font-weight: var(--fWeightMedium);
+    line-height: var(--lHeightMedium);
+}
+
+.m-s-img div {
+    background-image: url('../../media/Main-screen/Avatar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 243px;
+    width: 243px;
+}
