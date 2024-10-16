@@ -29,6 +29,7 @@
 
 .m-s-btn {
     transition: .3s;
+    width: 183px;
 }
 
 .m-s-btn:hover {

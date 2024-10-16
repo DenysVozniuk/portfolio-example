@@ -20,4 +20,8 @@
     .m-s-head, .m-s-text {
         text-align: center;
     }
+
+    .m-s-btn {
+        width: 153px;
+    }
 }
