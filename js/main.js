@@ -16,3 +16,19 @@ const toggleMenu = () => {
 };
 
 mobileBtn.addEventListener('click', toggleMenu);
+
+
+const worksNavBtn = document.getElementById('works-mobile-nav-btn');
+const blogsNavBtn = document.getElementById('blog-mobile-nav-btn');
+const contactsNavBtn = document.getElementById('contact-mobile-nav-btn');
+
+const mobileMenuClosing = () => {
+    mobileBtn.classList.remove('active');
+    mobileMenu.classList.remove('open');
+    mobileMenu.classList.add('close');
+    body.removeAttribute('style');
+};
+
+worksNavBtn.addEventListener('click', mobileMenuClosing);
+blogsNavBtn.addEventListener('click', mobileMenuClosing);
+contactsNavBtn.addEventListener('click', mobileMenuClosing);

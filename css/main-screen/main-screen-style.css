@@ -27,6 +27,14 @@
     color: var(--mainColor);
 }
 
+.m-s-btn {
+    transition: .3s;
+}
+
+.m-s-btn:hover {
+    transform: scale(1.04);
+}
+
 .m-s-btn a {
     border: 0;
     background-color: var(--primaryColor);
