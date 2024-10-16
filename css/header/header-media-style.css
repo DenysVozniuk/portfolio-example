@@ -17,11 +17,11 @@
     }
 
     .burger-menu.active .line-1 {
-        transform: rotate(45deg) translateX(12px);
+        transform: rotate(45deg) translate(6px, 6px);
     }
 
     .burger-menu.active .line-3 {
-        transform: rotate(-45deg) translateX(11px);
+        transform: rotate(-45deg) translate(5px, -6px);
     }
 
     @keyframes menu-open {
@@ -48,17 +48,18 @@
 
     .mobile-menu {
         display: flex;
-        min-height: 0;
-        height: 0;
+        /* min-height: 0;
+        height: 0; */
     }
 
     .mobile-menu.close {
+        height: 0;
         animation: menu-close .3s linear;
     }
 
     .mobile-menu.open {
-        min-height: 100vh;
-        height: 100vh;
+        /* min-height: 100vh;
+        height: 100vh; */
         animation: menu-open .3s linear;
     }
 
